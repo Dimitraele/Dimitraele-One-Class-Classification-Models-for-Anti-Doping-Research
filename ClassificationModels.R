@@ -176,7 +176,7 @@ do.call(grid.arrange, c(plot_list, ncol = 1))
 
 ### plot_list2
 combined_data2 <- combined_data[combined_data$Ion == "Ion_1",]
-combined_data2$Value2 <- c(1:13, 1:14)
+combined_data2$Value2 <- c(1:14, 1:13)
 
 plot_list2 <- lapply(1:1, function(i) {
   ggplot(combined_data2, 
@@ -498,7 +498,7 @@ do.call(grid.arrange, c(plot_list, ncol = 1))
 
 ### plot_list2
 combined_data2 <- combined_data[combined_data$Ion == "Ion_1",]
-combined_data2$Value2 <- c(1:13, 1:14)
+combined_data2$Value2 <- c(1:14, 1:13)
 
 plot_list2 <- lapply(1:1, function(i) {
   ggplot(combined_data2, 
@@ -784,7 +784,7 @@ do.call(grid.arrange, c(plot_list, ncol = 1))
 
 ### plot_list2
 combined_data2 <- combined_data[combined_data$Ion == "Ion_1",]
-combined_data2$Value2 <- c(1:13, 1:14)
+combined_data2$Value2 <- c(1:14, 1:13)
 
 plot_list2 <- lapply(1:1, function(i) {
   ggplot(combined_data2, 
@@ -1069,7 +1069,7 @@ do.call(grid.arrange, c(plot_list, ncol = 1))
 
 ### plot_list2
 combined_data2 <- combined_data[combined_data$Ion == "Ion_1",]
-combined_data2$Value2 <- c(1:13, 1:14)
+combined_data2$Value2 <- c(1:14, 1:13)
 
 plot_list2 <- lapply(1:1, function(i) {
   ggplot(combined_data2, 
